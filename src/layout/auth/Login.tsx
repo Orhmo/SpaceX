@@ -53,22 +53,24 @@ const Login: React.FC = () => {
               <span className='text-[#1A1A1A] text-[12px] md:text-[16px] leading-6 font-normal'>
                 Email
               </span>
-              <input
-                className='block w-full mt-1 border-2 indent-4 py-3 border-[#1A1A1A] rounded-md shadow-sm focus:ring-[#FEF0F2] focus:border-[#FEF0F2] sm:text-sm'
-                type='email'
-                value={email}
-                onChange={(event) => setEmail(event.target.value)}
-                required
-              />
+              <div className='mt-1 relative border-[6px] border-[#F0F0F0] rounded-lg'>
+                <input
+                  className='block w-full border-2 indent-4 py-3 border-[#1A1A1A] rounded-md shadow-sm focus:ring-[#FEF0F2] focus:border-[#FEF0F2] sm:text-sm'
+                  type='email'
+                  value={email}
+                  onChange={(event) => setEmail(event.target.value)}
+                  required
+                />
+              </div>
             </label>
 
             <label className='block mb-8'>
               <span className='text-[#1A1A1A] text-[12px] md:text-[16px] leading-6 font-normal'>
                 Password
               </span>
-              <div style={{ position: 'relative' }}>
+              <div className='mt-1 relative border-[6px] border-[#F0F0F0] rounded-lg'>
                 <input
-                  className='block w-full mt-1 border-2 indent-4 py-3 border-[#1A1A1A] rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm'
+                  className='block w-full border-2 indent-4 py-3 border-[#1A1A1A] rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm'
                   type={showPassword ? 'text' : 'password'}
                   value={password}
                   onChange={(event) => setPassword(event.target.value)}
