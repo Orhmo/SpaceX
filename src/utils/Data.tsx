@@ -6,7 +6,7 @@ const Blob = [
   {
     src: One,
     style:
-      'justify-center bg-[#FEF0F2] border-[#FCB6C0] border-[1px] rounded-2xl pt-[8px] overflow-hidden w-[90px] h-[65px]',
+      'justify-center bg-[#FEF0F2] border-[#FCB6C0] border-[1px] rounded-2xl pt-[8px] overflow-hidden w-[100px] h-[65px]',
     head: 'Monitor your Earnings',
     des: 'Easily see how much your busineses are earning on each transaction and watch your earnings rise.',
   },
@@ -18,7 +18,8 @@ const Blob = [
     head: 'Manage your Businesses',
     des: 'Easily see how much your businesses are earning on each transaction and watch your earnings rise.',
   },
-
+]
+const Blob2 = [
   {
     src: Three,
     style:
@@ -28,4 +29,4 @@ const Blob = [
   },
 ]
 
-export { Blob }
+export { Blob, Blob2 }
