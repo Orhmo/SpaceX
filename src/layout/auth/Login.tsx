@@ -37,8 +37,8 @@ const Login: React.FC = () => {
 
   return (
     <div className='flex justify-center align-center overflow-x-hidden my-12 md:my-8'>
-      <div className='w-full bg-[#FEF0F2] px-4 py-8 md:p-16'>
-        <form onSubmit={handleLogin} className='bg-white shadow-lg rounded-xl px-8 pt-6 pb-8 mb-4'>
+      <div className='w-full bg-[#FEF0F2] px-4 py-8 md:py-20 md:px-8'>
+        <form onSubmit={handleLogin} className='bg-white shadow-lg rounded-xl px-10 pt-6 pb-8 mb-4'>
           <div className='mb-4'>
             <div className='mb-4'>
               <h1 className='text-[20px] md:text-[24px] font-bold leading-9'>
