@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
 
   return (
     <header className='fixed w-full top-0 border-[#DCE2EA] border-b-[1px] bg-white z-20 '>
-      <div data-aos='fade-down' data-aos-easing='linear' data-aos-duration={3000} className=' ml-8'>
+      <div data-aos='fade-down' data-aos-easing='ease-in' data-aos-duration={2000} className=' ml-8'>
         <Link to='/'>
           <img src={Logo} alt='Logo' className='hover:scale-90' />
         </Link>
