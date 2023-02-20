@@ -3,8 +3,9 @@
 
 ## Testing
 <h3>Login Details</h3>
-Email: Cokitchen222@gmail.co
-Password: password
+<p>Email: Cokitchen222@gmail.co</p>
+<p>Password: password </p>
+<br />
 
 Web Developer Assessment.
 The goal of this project is to provide:
