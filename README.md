@@ -3,7 +3,7 @@
 
 ## Testing
 <h3>Login Details</h3>
-<p>Email: Cokitchen222@gmail.co</p>
+<p>Email: user@moneeyapp.com</p>
 <p>Password: password </p>
 <br />
 
