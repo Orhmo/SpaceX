@@ -18,7 +18,7 @@ const COMPANY_QUERY = gql`
   }
 `
 
-function CompanyData() {
+const CompanyData: React.FC = () => {
   const { loading, error, data } = useQuery<CompanyData>(COMPANY_QUERY)
 
   if (loading) return <p>Fetching company details...</p>
