@@ -9,7 +9,7 @@ const Dashboard: React.FC = () => {
     const timeout = setTimeout(() => {
       // Log user out by redirecting them to login page
       window.location.href = '/'
-    }, 12000) // 2 minutes
+    }, 60000) // 2 minutes
 
     return () => clearTimeout(timeout)
   }, [])

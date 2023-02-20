@@ -21,7 +21,7 @@ const Notification: React.FC = () => {
         <span className='pt-[7px] pl-1 text-[#E60A2B] text-sm'>Coming soon</span>
       </div>
 
-      <div className='mt-12 bg-white border-[#EBEBEB] border-[1px] h-[207px] w-[327px]'>
+      <div className='mt-12 bg-white border-[#EBEBEB] border-[1px] h-[207px] w-[25vw]'>
         {Not.map((item, index) => (
           <div className='m-4 flex items-center' key={index}>
             <div className=' bg-[#F4F5F5] w-[45px] h-[45px] rounded-[6px] hover:scale-90'>
