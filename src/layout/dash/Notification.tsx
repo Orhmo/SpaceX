@@ -37,7 +37,7 @@ const Notification: React.FC = () => {
 
       <div className='mt-10 text-center'>
         <h2 className='font-bold text-[24px] text-[#1A1A1A] pb-4 '>📫 Notifications</h2>
-        <span className='text-[#595959] text-[16px block'>
+        <span className='text-[#595959] text-[16px block px-2'>
           Receive notifcations about your rider performance, efficiency reviews and a lot more
         </span>
       </div>

@@ -34,7 +34,7 @@ const Welcome: React.FC = () => {
           {Blob.map((item: BlobItem, index: number) => (
             <div className='flex items-center pb-8' key={index}>
               <div className={item.style}>
-                <img src={item.src} alt='' className='' />
+                <img src={item.src} alt='' className='lg:w-full' />
               </div>
               <div className='pl-4'>
                 <h2 className='text-[#858585] text-[16px] leading-8 tracking-[-0.3px]'>
