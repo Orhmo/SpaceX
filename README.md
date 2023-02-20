@@ -1,11 +1,11 @@
 # A Company Data Site 
 
+Web Developer Assessment.
 ## Testing
-<h1>Login Details</h1>
+<h6>Login Details</h6>
 Email: Cokitchen222@gmail.co
 Password: password
-
-Web Developer Assessment.
+<br />
 The goal of this project is to provide:
 1. Implement tthe figma design.
 2. Integrate the graphql api link , using the company query , get the ceo , cto , company name and prefill
