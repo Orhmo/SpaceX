@@ -58,6 +58,7 @@ const Login: React.FC = () => {
                   className='block w-full border-2 indent-4 py-3 border-[#1A1A1A] rounded-md shadow-sm focus:ring-[#FEF0F2] focus:border-[#FEF0F2] sm:text-sm'
                   type='email'
                   value={email}
+                  placeholder='user@moneeyapp.com'
                   onChange={(event) => setEmail(event.target.value)}
                   required
                 />
@@ -73,6 +74,7 @@ const Login: React.FC = () => {
                   className='block w-full border-2 indent-4 py-3 border-[#1A1A1A] rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm'
                   type={showPassword ? 'text' : 'password'}
                   value={password}
+                  placeholder='password'
                   onChange={(event) => setPassword(event.target.value)}
                   required
                 />
@@ -96,7 +98,7 @@ const Login: React.FC = () => {
             </label>
 
             <button
-              className='w-full py-3 text-white text-sm md:text-base bg-[#1CC578] rounded-full hover:text-[#1CC578] hover:bg-white hover:border-2 hover:border-[#1CC578]'
+              className='cursor-pointer w-full py-3 text-white text-sm md:text-base bg-[#1CC578] rounded-full hover:text-[#1CC578] hover:bg-white hover:border-2 hover:border-[#1CC578]'
               type='submit'
             >
               Login

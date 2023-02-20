@@ -11,7 +11,7 @@ type UserContextValue = {
 }
 
 const defaultUser: User = {
-  email: 'Cokitchen222@gmail.co',
+  email: 'user@moneeyapp.com',
   password: 'password',
 }
 
