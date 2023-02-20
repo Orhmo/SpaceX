@@ -1,22 +1,18 @@
 # A Company Data Site 
 
-Web Developer Assessment.
-### Testing
-<h6>Login Details</h6>
+
+## Testing
+<h3>Login Details</h3>
 Email: Cokitchen222@gmail.co
 Password: password
 
+Web Developer Assessment.
 The goal of this project is to provide:
 1. Implement tthe figma design.
 2. Integrate the graphql api link , using the company query , get the ceo , cto , company name and prefill
 on the company details screen
 3. Create dummy username and password, using React context to store the dummy username and password that will allow the user login to the company details page.
 4. Security - Log the user out after every 2 mins, let them relogin to access the dashboard.
-
-## Testing
-<h6>Login Details</h6>
-Email: Cokitchen222@gmail.co
-Password: password
 
 ## Challange
 - Responsiveness
