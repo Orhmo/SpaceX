@@ -28,8 +28,8 @@ const Notification: React.FC = () => {
               <p className='text-[16px] text-center m-3'>{item.src}</p>
             </div>
             <div className='pl-4 hover:animate-bounce transition duration-200'>
-              <div className='my-1 animate-pulse  transition duration-1000 bg-[#F5F5F5] w-[194px] h-[14px] rounded-[4px]'></div>
-              <div className='animate-pulse transition-transform duration-1000 bg-[#F5F5F5] w-[132px] h-[14px] rounded-[4px]'></div>
+              <div className='my-1 animate-pulse transition duration-60000 bg-[#F5F5F5] w-[235px] h-[14px] rounded-[4px]'></div>
+              <div className='animate-pulse transition-transform duration-60000 bg-[#F5F5F5] w-[174px] h-[14px] rounded-[4px]'></div>
             </div>
           </div>
         ))}

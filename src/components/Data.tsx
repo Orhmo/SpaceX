@@ -37,11 +37,11 @@ const CompanyData: React.FC = () => {
   return (
     <div className='flex flex-col justify-center p-8  md:px-24 md:pt-12 '>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'left' }}>
-        <div className='border-2 border-[#FEE7EA] rounded-[50%] w-[80px] h-[80px]'>
+        <div className='border-2 border-[#FEE7EA] rounded-[50%] w-[75px] h-[75px]'>
           <div
             style={{
-              width: 70,
-              height: 70,
+              width: 65,
+              height: 65,
               marginTop: '3px',
               marginLeft: '3px',
               color: '#1CC578',
@@ -57,10 +57,10 @@ const CompanyData: React.FC = () => {
             {nameShortForm}
           </div>
         </div>
-        <h2 className=' ml-8 text-[24px] text-[#1A1A1A] font-bold'>{company.name}</h2>
+        <h2 className=' ml-6 text-[24px] text-[#1A1A1A] font-bold'>{company.name}</h2>
       </div>
 
-      <div className='ml-4 my-4'>
+      <div className='ml-4 my-8'>
         <div className='flex flex-col mt-4 '>
           <p className='text-[#858585] text-[12px]'>CEO:</p>
           <span className='text-[#1A1A1A] text-[16px]'>{company.ceo}</span>

@@ -40,7 +40,7 @@ const Login: React.FC = () => {
       <div className='w-full bg-[#FEF0F2] px-4 py-8 md:py-20 md:px-8'>
         <form onSubmit={handleLogin} className='bg-white shadow-lg rounded-xl px-10 pt-6 pb-8 mb-4'>
           <div className='mb-4'>
-            <div className='mb-4'>
+            <div className='my-4'>
               <h1 className='text-[20px] md:text-[24px] font-bold leading-9'>
                 Login to your dashboard
               </h1>
@@ -49,7 +49,7 @@ const Login: React.FC = () => {
               </p>
             </div>
 
-            <label className='block mb-8'>
+            <label className='block my-8'>
               <span className='text-[#1A1A1A] text-[12px] md:text-[16px] leading-6 font-normal'>
                 Email
               </span>

@@ -20,7 +20,8 @@ const Welcome: React.FC = () => {
           <img src={Logo} alt='Moneey Logo' className='hover:scale-90' />
         </div>
       </Link>
-      <div className='mt-4 mx-4'>
+
+      <div className='mt-6 mx-4'>
         <h1 className='text-[32px] text-[#1A1A1A] leading-10 tracking-[-0.5px]'>
           {' '}
           Hi there, see what’s new{' '}

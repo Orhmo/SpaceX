@@ -21,7 +21,7 @@ const Auth: React.FC = () => {
           <Welcome />
         </div>
       </div>
-      <div className='w-full md:w-[55%] bg-[#FEF0F2] px-4 py-8 md:p-8'>
+      <div className='w-full md:w-[55%] bg-[#FEF0F2] px-16 py-8 md:p-16'>
         <div data-aos='fade-left' data-aos-easing='ease-in-sine' data-aos-duration={2000}>
           <UserContextProvider>
             <Login />
