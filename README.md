@@ -1,4 +1,4 @@
-# MoneeyApp Company Data Site 
+# A Company Data Site 
 
 
 ## Testing
@@ -7,15 +7,14 @@
 <p>Password: password </p>
 <br />
 
-Web Developer Assessment.
-The goal of this project is to provide:
-1. Implement tthe figma design.
+The goal achieved in this project:
+1. Figma design implementation.
 2. Integrate the graphql api link , using the company query , get the ceo , cto , company name and prefill
 on the company details screen
 3. Create dummy username and password, using React context to store the dummy username and password that will allow the user login to the company details page.
 4. Security - Log the user out after every 2 mins, let them relogin to access the dashboard.
 
-## Challange
+## Personal Challange
 - Responsiveness
 - Clean codes 
 - Semantics 
